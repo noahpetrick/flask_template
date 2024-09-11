@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Your Name</h1>
+<br>
+<h2>Description of the website</h2>
+<br>
+<img src=" {{ url_for('static', filename='assets/image_file_name.jpg') }}" alt="Description of the image" width="300">
+
+{% endblock %}
